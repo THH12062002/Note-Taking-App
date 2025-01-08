@@ -21,7 +21,7 @@ class NoteDatabase {
 
     return await openDatabase(
       path,
-      version: 1, // Đặt lại version về 1
+      version: 1,
       onCreate: _createDB,
     );
   }
