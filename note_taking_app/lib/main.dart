@@ -107,6 +107,7 @@ class _NoteListPageState extends State<NoteListPage> {
             'Chưa có ghi chú nào!',
             style: TextStyle(fontSize: 18, color: Colors.grey),
           ),
+          const Text('Just test github.dev!', style:TextStyle(fontSize: 18, color: Colors.grey),),
           const SizedBox(height: 10),
           ElevatedButton(
             onPressed: () => _navigateToNotePage(),
